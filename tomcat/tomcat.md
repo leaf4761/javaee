@@ -287,7 +287,7 @@ Server Locations配置有三个选项：
     2. Use Tomcat installation (take control of Tomcat Installation);
     3. Use Custom location (does not modify Tomcat installation);
     下面还有两个配置：
-    1.Server path(即tomcat或者eclipse根目录)
+    1. Server path(即tomcat或者eclipse根目录)
     2. Deploy path(工程文件的根目录，tomcat一般为webapps，workspace下一般为wtpwebapps)
 
 第一个选项表示使用当前workspace的metadata路径，它一般会将输出文件保存至workspace目录下。第二个表示输出文件保存至tomcat安装目录下。如果需要修改此配置，需先将tomcat服务下的工程全部移除(remove all)，右键点击 clean命令，最后才能修改此项配置。
