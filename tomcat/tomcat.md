@@ -39,7 +39,7 @@ WEB-INF：Java web应用的安全目录。所谓安全就是客户端无法访�
 ## 前提条件
 Tomcat 8.5 要求 JDK 版本为 1.7 以上。
 
-进入 Tomcat 官方下载地址 选择合适版本下载，并解压到本地。
+进入 [Tomcat](http://tomcat.apache.org/ "tomcat官网") 官方下载地址 选择合适版本下载，并解压到本地。
 
 ### Windows
 添加环境变量 CATALINA_HOME ，值为 Tomcat 的安装路径。
